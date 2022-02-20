@@ -16,7 +16,7 @@ class KResource(Resource):
         name = request.form["name"]
         keterangan = request.form["keterangan"]
         identitas["Toto"] = name
-        identitas["Gem"] = name
+        identitas["Gem"] = keterangan
         response = ({"msg":"berhasil di post"})
         return response
     
